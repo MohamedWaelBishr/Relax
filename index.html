@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row home">
+        <div class="col-md-12 splash">
+          <div class="intro">
+            <h1 id="quotation">just relax</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="btns row">
+      <div class="pill-nav splash" id="BT">
+        <button class="btn" type="button" id="waves" onclick="wavesFunction()">
+          Waves
+        </button>
+
+        <button class="btn" type="button" id="rain" onclick="rainFunction()">
+          Rain
+        </button>
+
+        <button class="btn" type="button" id="fire" onclick="fireFunction()">
+          Fire
+        </button>
+
+        <button class="btn" type="button" id="night" onclick="nightFunction()">
+          Night
+        </button>
+      </div>
+    </div>
+
+    <video autoplay loop id="vid">
+      <source src="./assets/Vid/main.mp4" type="video/mp4" />
+    </video>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
